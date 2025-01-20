@@ -1,3 +1,7 @@
+html{
+    cursor: url(./mouse/Middle\ Ages--cursor--SweezyCursors.cur);
+}
+
 @font-face {
     font-family: renasci;
     src: url(./fonts/renasci.otf);
@@ -75,16 +79,16 @@ a:hover {
 
 .miBoton {
     text-decoration: none;
-    background-color: darkslategrey;
+    background-color: lightcyan;
     width: 120px !important;
     border-radius: 5px;
-    color: white;
+    color: black;
     transition-duration: 0.2s;
     filter: blur(-5px);
 }
 
 .miBoton:hover {
-    color: white;
+    color: black;
     padding: 15px !important;
     width: 135px !important;
 }
