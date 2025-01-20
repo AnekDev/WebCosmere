@@ -3,7 +3,9 @@ html{
 }
 
 *{
-    cursor: url("./mouse/cursorog.png"), auto !important;
+    
+    cursor: url("./mouse/hand.png"), auto !important;
+    cursor: url("./mouse/cursorog.png"), pointer !important;
 }
 
 
