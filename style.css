@@ -2,6 +2,15 @@ img.petit{
     width: 50px;
 }
 
+
+
+.header-like{
+    background-size: auto; 
+    background-position: center center;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
 header{
     background-size: cover; 
     background-position: center center;
@@ -14,6 +23,14 @@ body{
     background-attachment: fixed;
     background-color: #101357;
     /*background-image: url(./media/texture.png);*/
+}
+
+a{
+    color: wheat;
+}
+
+a:hover{
+    color: aquamarine;
 }
 
 .index{
