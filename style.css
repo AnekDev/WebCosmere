@@ -1,5 +1,14 @@
 html{
-    cursor: url(./mouse/Middle\ Ages--cursor--SweezyCursors.cur);
+    cursor: url("./mouse/cursor.png"), auto !important;
+}
+
+*{
+    cursor: url("./mouse/cursor.png"), auto !important;
+}
+
+
+body{
+    cursor: url("./mouse/cursor.png"), auto;
 }
 
 @font-face {
@@ -21,6 +30,7 @@ img.petit {
     background-position: center center;
     height: 70vh;
     background-attachment: fixed;
+    cursor: url("./mouse/cursor.png"), auto;
 }
 
 .header-like-B {
