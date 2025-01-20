@@ -1,0 +1,35 @@
+img.petit{
+    width: 50px;
+}
+
+header{
+    background-size: cover; 
+    background-position: center center;
+    height: 85vh;
+}
+
+body{
+    background-size: 200vh; 
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(./media/texture.png);
+}
+
+.index{
+    background-image: url(./media/index-header.jpg);
+}
+
+.card{
+    background-size: cover; 
+    background-position: center center;
+}
+
+.card p{
+    text-align: justify;
+}
+
+@media (max-width: 800px){
+    header{
+        height: 50vh;
+    }
+}
