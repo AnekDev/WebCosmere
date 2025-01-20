@@ -1,63 +1,79 @@
-img.petit{
+@font-face {
+    font-family: renasci;
+    src: url(./fonts/renasci.otf);
+}
+
+.estilizado {
+    font-family: renasci;
+    letter-spacing: 0.1em;
+}
+
+img.petit {
     width: 50px;
 }
 
-
-
-.header-like{
-    background-size: auto; 
+.header-like {
+    background-size: auto;
     background-position: center center;
     height: 70vh;
     background-attachment: fixed;
 }
 
-header{
-    background-size: cover; 
+.header-like-B {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+header {
+    background-size: cover;
     background-position: center center;
     height: 85vh;
 }
 
-body{
-    background-size: 200vh; 
+body {
+    background-size: 200vh;
     background-position: center center;
     background-attachment: fixed;
     background-color: #101357;
     /*background-image: url(./media/texture.png);*/
 }
 
-a{
+a {
     color: wheat;
 }
 
-a:hover{
+a:hover {
     color: aquamarine;
 }
 
-.index{
+.index {
     background-image: url(./media/index-header.jpg);
 }
 
-.card{
-    background-size: cover; 
+.card {
+    background-size: cover;
     background-position: left center;
     border-top-left-radius: 25px;
     border-top-right-radius: 5px;
     transition-duration: 5s;
 }
-.card:hover{
+
+.card:hover {
     background-position: right bottom;
 }
 
-.redondeo{
+.redondeo {
     border-top-left-radius: 25px;
     border-top-right-radius: 5px;
 }
 
-.card p{
+.card p {
     text-align: justify;
 }
 
-.miBoton{
+.miBoton {
     text-decoration: none;
     background-color: darkslategrey;
     width: 120px !important;
@@ -66,14 +82,15 @@ a:hover{
     transition-duration: 0.2s;
     filter: blur(-5px);
 }
-.miBoton:hover{
+
+.miBoton:hover {
     color: white;
     padding: 15px !important;
     width: 135px !important;
 }
 
-@media (max-width: 800px){
-    header{
+@media (max-width: 800px) {
+    header {
         height: 50vh;
     }
 }
