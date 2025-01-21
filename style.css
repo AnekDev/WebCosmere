@@ -11,6 +11,7 @@ html{
 
 body{
     cursor: url("./mouse/cursor.png"), auto;
+    backdrop-filter: blur(0px);
 }
 
 @font-face {
@@ -32,7 +33,7 @@ img.petit {
     background-position: center center;
     height: 70vh;
     background-attachment: fixed;
-    cursor: url("./mouse/cursor.png"), auto;
+    
 }
 
 .header-like-B {
@@ -51,13 +52,19 @@ header {
 body {
     background-size: 200vh;
     background-position: center center;
-    background-attachment: fixed;
-    background-color: #101357;
+    background-image: url(./media/stars.jpg);
     /*background-image: url(./media/texture.png);*/
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a {
     color: wheat;
+    cursor: url("./mouse/hand.png"), auto;
+}
+
+.nav-link{
+    cursor: url("./mouse/hand.png"), auto;
 }
 
 a:hover {
@@ -95,14 +102,16 @@ a:hover {
     width: 120px !important;
     border-radius: 5px;
     color: black;
-    transition-duration: 0.2s;
+    transition-duration: 0.3s;
     filter: blur(-5px);
+    cursor: url("./mouse/hand.png"), auto !important;
 }
 
 .miBoton:hover {
     color: black;
-    padding: 15px !important;
+    padding: 10px !important;
     width: 135px !important;
+    background-color: #AC5A58;
 }
 
 @media (max-width: 800px) {
