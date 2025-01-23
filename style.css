@@ -11,7 +11,11 @@ html{
 
 body{
     cursor: url("./mouse/cursor.png"), auto;
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(1px);
+}
+
+input,select{
+    margin-bottom: 3vh;
 }
 
 body {
