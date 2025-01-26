@@ -8,10 +8,13 @@ html{
     cursor: url("./mouse/cursorog.png"), pointer !important;
 }
 
+button,.navbar-toggler-icon:hover{
+    cursor: url("./mouse/hand.png"), auto !important;
+}
 
 body{
     cursor: url("./mouse/cursor.png"), auto;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(0px);
 }
 
 input,select{
